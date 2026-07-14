@@ -3955,3 +3955,1283 @@ ICONOS
     display:block;
 
 }
+/*==================================================
+RESPONSIVE MOBILE
+==================================================*/
+
+@media screen and (max-width:768px){
+
+    .container{
+
+        width:92%;
+
+    }
+
+    /*==========================
+    HEADER
+    ==========================*/
+
+    header{
+
+        padding:18px 0;
+
+    }
+
+    .nav-container{
+
+        position:relative;
+
+    }
+
+    .logo img{
+
+        width:120px;
+
+    }
+
+    nav{
+
+        position:absolute;
+
+        top:75px;
+        left:0;
+
+        width:100%;
+
+        background:#FFFCED;
+
+        border-radius:12px;
+
+        box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+        display:none;
+
+        z-index:999;
+
+    }
+
+    nav.active{
+
+        display:block;
+
+    }
+
+    nav ul{
+
+        flex-direction:column;
+
+        gap:22px;
+
+        padding:30px 0;
+
+    }
+
+    .menu-toggle{
+
+        width:34px;
+
+        display:flex;
+
+        flex-direction:column;
+
+        gap:6px;
+
+        cursor:pointer;
+
+    }
+
+    .menu-toggle span{
+
+        width:100%;
+        height:3px;
+
+        background:#3E3011;
+
+        border-radius:50px;
+
+    }
+
+    /*==========================
+    HERO
+    ==========================*/
+
+    .hero{
+
+        padding:40px 0 70px;
+
+    }
+
+    .hero-container{
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+        text-align:center;
+
+    }
+
+    .hero-text{
+
+        margin-top:0;
+
+    }
+
+    .hero .subtitle{
+
+        top:0;
+
+    }
+
+    .hero h1 .blue,
+    .hero h1 .brown{
+
+        font-size:58px;
+
+    }
+
+    .hero p{
+
+        max-width:100%;
+
+        margin:25px auto;
+
+        font-size:17px !important;
+
+    }
+
+    .hero .btn-principal{
+
+        margin:auto;
+
+    }
+
+    .hero-image{
+
+        justify-content:center;
+
+        transform:none;
+
+    }
+
+    .hero-image img{
+
+        max-width:420px;
+
+    }
+        /*==========================
+    NOSOTROS
+    ==========================*/
+
+    .nosotros{
+
+        padding:70px 0;
+
+    }
+
+    .nosotros-image{
+
+        margin-bottom:35px;
+
+    }
+
+    .nosotros-contenido{
+
+        flex-direction:column;
+
+        gap:35px;
+
+        text-align:center;
+
+    }
+
+    .nosotros-titulo,
+    .nosotros-info{
+
+        width:100%;
+
+    }
+
+    .nosotros-titulo h2{
+
+        font-size:52px;
+
+        line-height:.95;
+
+        align-items:center;
+
+    }
+
+    .nosotros-titulo h2 span{
+
+        white-space:normal;
+
+    }
+
+    .nosotros-info p{
+
+        font-size:17px;
+
+        line-height:1.7;
+
+        margin-bottom:28px;
+
+    }
+
+    .nosotros-info .btn-principal{
+
+        margin:auto;
+
+    }
+
+    /*==========================
+    LAS MADERAS
+    ==========================*/
+
+    .maderas{
+
+        padding:70px 0;
+
+    }
+
+    .maderas-header{
+
+        margin-bottom:45px;
+
+    }
+
+    .maderas-header h2{
+
+        font-size:52px;
+
+        line-height:.95;
+
+    }
+
+    .maderas-header p{
+
+        font-size:17px;
+
+        line-height:1.6;
+
+    }
+
+    .maderas-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:24px;
+
+    }
+
+    .card-madera{
+
+        width:100%;
+
+    }
+
+    .card-inner{
+
+        width:100%;
+
+        max-width:170px;
+
+        height:300px;
+
+        margin:auto;
+
+    }
+
+    .card-madera h4{
+
+        width:100%;
+
+        margin-top:14px;
+
+        font-size:18px;
+
+    }
+
+    .card-back{
+
+        padding:20px;
+
+    }
+
+    .card-back h3{
+
+        font-size:18px;
+
+    }
+
+    .card-back p{
+
+        font-size:15px;
+
+        line-height:1.5;
+
+    }
+
+    .icono-pluma,
+    .icono-escudo,
+    .icono-estrella{
+
+        width:42px;
+
+        margin-bottom:16px;
+
+    }
+
+    .icono-balanza{
+
+        width:65px;
+
+        margin-bottom:16px;
+
+    }
+        /*==========================
+    CURSOS
+    ==========================*/
+
+    .cursos{
+
+        padding:70px 0;
+
+    }
+
+    .cursos-header{
+
+        margin-bottom:40px;
+
+    }
+
+    .cursos-header h2{
+
+        font-size:52px;
+
+        line-height:.95;
+
+    }
+
+    .cursos-grid{
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:55px;
+
+    }
+
+    .curso-card,
+    .curso-grande{
+
+        width:100%;
+
+        max-width:380px;
+
+        min-height:auto;
+
+    }
+
+    .curso-card img,
+    .curso-grande img{
+
+        width:100%;
+
+        margin:0;
+
+    }
+
+    .curso-info{
+
+        width:85%;
+
+        margin:-180px auto 0;
+
+        align-items:center;
+
+        text-align:center;
+
+    }
+
+    .curso-card:not(.curso-grande) .curso-info{
+
+        margin:-220px auto 0;
+
+    }
+
+    .curso-info h3{
+
+        font-size:24px;
+
+    }
+
+    .descripcion{
+
+        font-size:15px;
+
+    }
+
+    .curso-footer{
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:20px;
+
+        margin-top:25px;
+
+    }
+
+    .curso-chico .curso-footer,
+    .curso-grande .curso-footer{
+
+        position:static;
+
+    }
+
+    .curso-grande .precio,
+    .curso-grande .precio-anterior{
+
+        position:static;
+
+    }
+
+    .curso-chico .btn-principal,
+    .curso-grande .btn-principal{
+
+        margin:0;
+
+        position:static;
+
+    }
+
+    /*==========================
+    PROCESO
+    ==========================*/
+
+    .proceso{
+
+        min-height:auto;
+
+        padding:70px 0;
+
+    }
+
+    .proceso .container{
+
+        width:92%;
+
+    }
+
+    .proceso .subtitle{
+
+        text-align:center;
+
+    }
+
+    .proceso h2{
+
+        margin:0 0 40px;
+
+        text-align:center;
+
+        font-size:48px;
+
+    }
+
+    .proceso-grid{
+
+        display:flex;
+
+        flex-direction:column-reverse;
+
+        gap:40px;
+
+    }
+
+    .proceso-imagen{
+
+        width:100%;
+
+        max-width:420px;
+
+        margin:auto;
+
+    }
+
+    .proceso-imagen img{
+
+        width:100%;
+
+        height:320px;
+
+        object-fit:cover;
+
+    }
+
+    .timeline{
+
+        width:100%;
+
+    }
+
+    .timeline-line{
+
+        left:62px;
+
+    }
+
+    .timeline-item{
+
+        grid-template-columns:38px 20px 1fr;
+
+        column-gap:15px;
+
+    }
+
+    .timeline-numero{
+
+        font-size:20px;
+
+    }
+
+    .timeline-info h3{
+
+        font-size:22px;
+
+    }
+
+    .timeline-info p{
+
+        font-size:16px;
+
+        line-height:1.6;
+
+    }
+        /*==========================
+    GALERÍA
+    ==========================*/
+
+    .galeria{
+
+        padding:70px 0;
+
+    }
+
+    .galeria-slider{
+
+        margin-bottom:12px;
+
+    }
+
+    .galeria-track{
+
+        gap:12px;
+
+    }
+
+    .galeria-track img{
+
+        width:180px;
+
+        height:180px;
+
+    }
+
+    /*==========================
+    TESTIMONIOS
+    ==========================*/
+
+    .testimonios{
+
+        padding:70px 0;
+
+    }
+
+    .testimonios-header{
+
+        margin-bottom:40px;
+
+    }
+
+    .testimonios-header h2{
+
+        font-size:48px;
+
+        line-height:.95;
+
+    }
+
+    .slider{
+
+        padding:0 20px;
+
+    }
+
+    .slider-track{
+
+        gap:18px;
+
+    }
+
+    .testimonio-card{
+
+        width:280px;
+
+        min-height:200px;
+
+        padding:28px;
+
+    }
+
+    .estrellas{
+
+        font-size:20px;
+
+        margin-bottom:14px;
+
+    }
+
+    .comentario{
+
+        font-size:16px;
+
+        line-height:1.6;
+
+        margin-bottom:20px;
+
+    }
+
+    .autor{
+
+        font-size:14px;
+
+    }
+
+    /*==========================
+    CONTACTO
+    ==========================*/
+
+    .contacto{
+
+        padding:70px 0;
+
+    }
+
+    .contacto-container{
+
+        flex-direction:column;
+
+        gap:45px;
+
+    }
+
+    .contacto-left,
+    .contacto-right{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    .contacto .subtitle{
+
+        display:block;
+
+        text-align:center;
+
+    }
+
+    .contacto-left h2{
+
+        font-size:48px;
+
+        line-height:.95;
+
+        margin-bottom:20px;
+
+    }
+
+    .contacto-left p{
+
+        font-size:18px;
+
+        margin-bottom:30px;
+
+    }
+
+    .contacto form{
+
+        width:100%;
+
+    }
+
+    .contacto input,
+    .contacto textarea{
+
+        font-size:16px;
+
+        padding:15px 18px;
+
+    }
+
+    .contacto textarea{
+
+        height:140px;
+
+    }
+
+    .contacto form .btn-principal{
+
+        margin:10px auto 0;
+
+    }
+
+    .contacto-right{
+
+        justify-content:center;
+
+    }
+
+    .contacto-right img{
+
+        width:100%;
+
+        max-width:380px;
+
+        margin:auto;
+
+    }
+        /*==========================
+    HERO CURSO
+    ==========================*/
+
+    .hero-curso{
+
+        padding:40px 0 70px;
+
+    }
+
+    .hero-curso .hero-container{
+
+        width:92%;
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+        text-align:center;
+
+    }
+
+    .hero-curso .hero-text{
+
+        max-width:100%;
+
+        padding-left:0;
+
+    }
+
+    .hero-curso h1 .blue,
+    .hero-curso h1 .brown{
+
+        font-size:58px;
+
+    }
+
+    .hero-curso p{
+
+        max-width:100%;
+
+        margin:25px auto;
+
+        font-size:17px;
+
+    }
+
+    .hero-datos{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+        gap:30px;
+
+    }
+
+    .hero-curso .btn-principal{
+
+        margin:auto;
+
+    }
+
+    .hero-curso .hero-image{
+
+        justify-content:center;
+
+    }
+
+    .hero-curso .hero-image img{
+
+        max-width:420px;
+
+    }
+
+    /*==========================
+    PROGRAMA
+    ==========================*/
+
+    .cd-programa{
+
+        padding:70px 0;
+
+    }
+
+    .cd-programa__inner{
+
+        width:92%;
+
+        grid-template-columns:1fr;
+
+        gap:45px;
+
+    }
+
+    .cd-programa__sticky{
+
+        position:static;
+
+        text-align:center;
+
+    }
+
+    .cd-heading{
+
+        font-size:52px;
+
+    }
+
+    .cd-sub{
+
+        font-size:17px;
+
+    }
+
+    .cd-accordion__body-inner{
+
+        padding:0 0 25px 48px;
+
+    }
+
+    /*==========================
+    HERRAMIENTAS
+    ==========================*/
+
+    .herramientas{
+
+        padding:70px 0;
+
+    }
+
+    .herramientas-grid{
+
+        flex-direction:column;
+
+        height:auto;
+
+        gap:20px;
+
+    }
+
+    .herramienta{
+
+        flex:none!important;
+
+        width:100%;
+
+        height:260px;
+
+    }
+
+    .herramienta:hover,
+    .herramienta.activa{
+
+        flex:none;
+
+    }
+
+    .nombre-vertical{
+
+        display:none;
+
+    }
+
+    .herramienta-info{
+
+        opacity:1;
+
+        transform:none;
+
+    }
+
+    /*==========================
+    DOCENTES
+    ==========================*/
+
+    .equipo{
+
+        padding:70px 0;
+
+    }
+
+    .equipo-grid{
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+    }
+
+    .docente{
+
+        max-width:380px;
+
+        margin:auto;
+
+        text-align:center;
+
+    }
+
+    /*==========================
+    RESULTADOS
+    ==========================*/
+
+    .detalle-resultados{
+
+        padding:70px 0;
+
+    }
+
+    .detalle-resultados h2{
+
+        font-size:48px;
+
+    }
+
+    .comparador{
+
+        aspect-ratio:4/5;
+
+    }
+
+    /*==========================
+    ESTADÍSTICAS
+    ==========================*/
+
+    .estadisticas{
+
+        padding:70px 0;
+
+    }
+
+    .estadisticas-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:30px;
+
+    }
+
+    .estadisticas::before,
+    .estadisticas::after{
+
+        display:none;
+
+    }
+
+    /*==========================
+    PROYECTOS
+    ==========================*/
+
+    .proyectos{
+
+        padding:70px 0;
+
+    }
+
+    .proyectos-slider{
+
+        gap:15px;
+
+    }
+
+    .slider-btn{
+
+        width:46px;
+
+        height:46px;
+
+    }
+
+    .proyecto-slide img{
+
+        height:260px;
+
+    }
+
+    /*==========================
+    FAQ
+    ==========================*/
+
+    .faq{
+
+        padding:70px 0;
+
+    }
+
+    .faq h2{
+
+        font-size:48px;
+
+    }
+
+    .faq-body p{
+
+        font-size:16px;
+
+        line-height:1.7;
+
+    }
+
+    /*==========================
+    CTA FINAL
+    ==========================*/
+
+    .detalle-final{
+
+        padding:70px 0;
+
+    }
+
+    .detalle-final h2{
+
+        font-size:48px;
+
+    }
+
+    .detalle-final p{
+
+        width:100%;
+
+        font-size:17px;
+
+    }
+
+}
+/*==================================================
+RESPONSIVE BIBLIOTECA
+==================================================*/
+
+@media screen and (max-width:768px){
+
+    .biblioteca{
+
+        padding:70px 0;
+
+    }
+
+    .biblioteca .container{
+
+        width:92%;
+
+    }
+
+    .biblioteca .subtitle{
+
+        text-align:center;
+
+        font-size:14px;
+
+    }
+
+    .biblioteca h1{
+
+        text-align:center;
+
+        font-size:52px;
+
+        line-height:.95;
+
+        margin-bottom:45px;
+
+    }
+
+    .biblio-section{
+
+        margin-bottom:60px;
+
+    }
+
+    .biblio-section h2{
+
+        text-align:center;
+
+        font-size:34px;
+
+        margin-bottom:25px;
+
+    }
+        /*==========================
+    TIPOGRAFÍAS
+    ==========================*/
+
+    .tipos{
+
+        flex-direction:column;
+
+        gap:20px;
+
+    }
+
+    .tipo-card{
+
+        padding:28px;
+
+        text-align:center;
+
+    }
+
+    .tipo-card h3{
+
+        font-size:48px;
+
+    }
+
+    .inter{
+
+        font-size:34px !important;
+
+    }
+
+    .tipo-card p{
+
+        font-size:15px;
+
+    }
+
+    /*==========================
+    INTERLÍNEA
+    ==========================*/
+
+    .interlineas{
+
+        flex-direction:column;
+
+        gap:20px;
+
+    }
+
+    .interlinea-card{
+
+        padding:28px;
+
+        text-align:center;
+
+    }
+
+    .titulo-muestra{
+
+        font-size:46px;
+
+        line-height:.9;
+
+    }
+
+    .texto-muestra{
+
+        font-size:17px;
+
+        line-height:1.6;
+
+    }
+        /*==========================
+    PALETA CROMÁTICA
+    ==========================*/
+
+    .colores{
+
+        display:grid;
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:25px;
+
+        justify-items:center;
+
+    }
+
+    .color{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    .muestra{
+
+        width:110px;
+
+        height:110px;
+
+        margin:0 auto 12px;
+
+    }
+
+    .color strong{
+
+        font-size:15px;
+
+    }
+
+    /*==========================
+    ÍCONOS
+    ==========================*/
+
+    .iconos-grid{
+
+        justify-content:center;
+
+        gap:35px;
+
+        margin-top:25px;
+
+    }
+
+    .iconos-grid img{
+
+        width:55px;
+
+    }
+
+    /*==========================
+    IMÁGENES
+    ==========================*/
+
+    .imagenes-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:16px;
+
+    }
+
+    .imagenes-grid img{
+
+        border-radius:14px;
+
+    }
